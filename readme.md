@@ -1,4 +1,4 @@
-#acms_util_kit ver.1.0
+#acms-util-kit ver.1.0
 
 This is desktop app for mac developed with node-webkit.
 This app helps you to get snippets and css rules for a-blog cms.
