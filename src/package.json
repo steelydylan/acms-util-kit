@@ -1,0 +1,22 @@
+{
+  "name": "acmsutilkit",
+  "version": "0.0.0",
+  "description": "automated gulp system for new projects",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "run"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "jade",
+    "haml",
+    "ejs",
+    "less",
+    "browserify"
+  ],
+  "author": "steelydylan",
+  "license": "MIT"
+}

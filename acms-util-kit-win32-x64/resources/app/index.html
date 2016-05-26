@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="http://developer.a-blogcms.jp/js/library/google-code-prettify/styles/prettify.css">
+	<link rel="stylesheet" href="http://developer.a-blogcms.jp/themes/system/css/acms-admin.css">
+	<link rel="stylesheet" href="http://developer.a-blogcms.jp/themes/system/css/acms.css">
+	<link rel="stylesheet" href="http://developer.a-blogcms.jp/themes/dev@acms/tools/css/template.css">
+</head>
+<body>
+<div class="acms-admin-tabs">
+	<ul class="js-acms_tabs">
+		<li><a href="./index.html" class="js-acms_tab js-acms_tab-active">カスタムフィールドメーカー</a></li>
+		<li><a href="./built_in.html" class="js-acms_tab">ビルトインモジュール</a></li>
+		<li><a href="./variable.html" class="js-acms_tab">グローバル変数</a></li>
+	</ul>
+	<div class="acms-admin-tabs-panel js-insert">
+	</div>
+</div>
+<script src="http://developer.a-blogcms.jp/js/library/jquery/jquery-1.11.1.min.js"></script>
+<script src="http://developer.a-blogcms.jp/js/library/jquery/ui/jquery-ui.min.js"></script>
+<script>
+$.get("http://developer.a-blogcms.jp/tools/customField.html",function(result){
+		$(".js-insert").append(result);
+		$.get("http://developer.a-blogcms.jp/themes/dev@acms/tools/js/customFieldMaker.js",function(result){
+			$("body").append("<script>"+result+"<\/script>");
+		});
+	});
+</script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/acms-tmp.js"></script>
+<script src="http://developer.a-blogcms.jp/themes/dev@acms/tools/js/template.js"></script>
+</body>
+</html>
