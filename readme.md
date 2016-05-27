@@ -9,7 +9,3 @@ This app helps you to get snippets and css rules for a-blog cms.
 - get snippets for custom unit.
 - get snippets for Module
 - get css rules of acms.css
-
-##Download
-
-You can download from [here](https://github.com/steelydylan/acms_util_kit/raw/master/Build/acms-utilkit.app.zip)
