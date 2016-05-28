@@ -13,8 +13,8 @@
 	<ul class="js-acms_tabs">
 		<li><a href="./index.html" class="js-acms_tab">カスタムフィールドメーカー</a></li>
 		<li><a href="./built_in.html" class="js-acms_tab">ビルトインモジュール</a></li>
-		<li><a href="./touch.html" class="js-acms_tab">タッチモジュール</a></li>
-		<li><a href="./variable.html" class="js-acms_tab js-acms_tab-active">グローバル変数</a></li>
+		<li><a href="./touch.html" class="js-acms_tab js-acms_tab-active">タッチモジュール</a></li>
+		<li><a href="./variable.html" class="js-acms_tab">グローバル変数</a></li>
 		<li><a href="./proofreading.html" class="js-acms_tab">
 		校正オプション</a></li>
 	</ul>
@@ -24,7 +24,7 @@
 <script src="http://developer.a-blogcms.jp/js/library/jquery/jquery-1.11.1.min.js"></script>
 <script src="http://developer.a-blogcms.jp/js/library/jquery/ui/jquery-ui.min.js"></script>
 <script>
-$.get("http://developer.a-blogcms.jp/reference/latest/global_variable.html",function(result){
+$.get("http://developer.a-blogcms.jp/reference/latest/touch.html",function(result){
 		var $box = $(result).find(".referenceBox");
 		$(".js-insert").append($box);
 	});

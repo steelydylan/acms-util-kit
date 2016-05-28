@@ -1,6 +1,6 @@
 {
-  "name": "acmsutilkit",
-  "version": "0.0.0",
+  "name": "acms-util-kit",
+  "version": "1.0.0",
   "description": "automated gulp system for new projects",
   "main": "index.js",
   "dependencies": {},

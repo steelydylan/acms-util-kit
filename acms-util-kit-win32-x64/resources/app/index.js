@@ -11,11 +11,9 @@ var Menu = require("menu");
 var mainWindow = null;
 
 // 全てのウィンドウが閉じたら終了
-app.on('window-all-closed', function() {
-  if (process.platform != 'darwin') {
-    app.quit();
-  }
-});
+// app.on('window-all-closed', function() {
+//     app.quit();
+// });
 
 // Electronの初期化完了後に実行
 app.on('ready', function() {
@@ -26,6 +24,7 @@ app.on('ready', function() {
   // ウィンドウが閉じられたらアプリも終了
   mainWindow.on('closed', function() {
     mainWindow = null;
+    app.quit();
   });
   var template = [{
         label: "Application",

@@ -10,7 +10,7 @@ gulp.task('electron', function() {
         packageJson: packageJson,
         release: './release',
         cache: './cache',
-        version: 'v0.37.4',
+        version: 'v1.0.0',
         packaging: true,
         token: 'abc123...',
         platforms: ['darwin-x64'],
