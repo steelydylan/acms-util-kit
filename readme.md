@@ -13,3 +13,6 @@ Electronで作成したa-blog cmsのチートシートアプリです。
 ```
 electron-packager ./src acms-util-kit --platform=darwin,win32 --arch=x64 --version=0.36.1 --overwrite --icon=icns/acms-util_03.icns
 ```
+
+##ダウンロード
+[https://github.com/steelydylan/acms-util-kit/archive/master.zip](https://github.com/steelydylan/acms-util-kit/archive/master.zip)
