@@ -12,10 +12,17 @@ Electronで作成したa-blog cmsのチートシートアプリです。
 - グローバル変数閲覧
 - 校正オプション閲覧
 
+##依存パッケージ
+
+```
+npm -g install electron-prebuilt
+npm i electron-packager -g
+```
+
 ##ビルド方法
 
 ```
-electron-packager ./src acms-util-kit --platform=darwin,win32 --arch=x64 --version=0.36.1 --overwrite --icon=icns/acms-util_03.icns
+npm run release
 ```
 
 ##ダウンロード

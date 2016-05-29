@@ -1,0 +1,13 @@
+{
+  "name": "acms-util-kit",
+  "version": "1.0.0",
+  "description": "a-blog cms cheat sheet",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "release": "electron-packager ./src acms-util-kit --out=./ --cache=cache --platform=darwin,win32 --arch=x64 --version=0.36.1 --overwrite --asar --icon=icns/acms-util_03.icns"
+  },
+  "author": "steelydylan",
+  "license": "MIT"
+}
