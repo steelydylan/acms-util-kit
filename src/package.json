@@ -1,22 +1,13 @@
 {
   "name": "acms-util-kit",
   "version": "1.0.0",
-  "description": "automated gulp system for new projects",
+  "description": "a-blog cms cheat sheet",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "run"
+    "release": "electron-packager ./src acms-util-kit --out=./ --cache=cache --platform=darwin,win32 --arch=x64 --version=0.36.1 --overwrite --asar --icon=icns/acms-util_03.icns"
   },
-  "keywords": [
-    "gulp",
-    "sass",
-    "jade",
-    "haml",
-    "ejs",
-    "less",
-    "browserify"
-  ],
   "author": "steelydylan",
   "license": "MIT"
 }
