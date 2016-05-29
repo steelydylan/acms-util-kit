@@ -7,3 +7,9 @@ Electronで作成したa-blog cmsのチートシートアプリです。
 - カスタムフィールドメーカー
 - ビルトインモジュール閲覧
 - グローバル変数閲覧
+
+##ビルド方法
+
+```
+electron-packager ./src acms-util-kit --platform=darwin,win32 --arch=x64 --version=0.36.1 --overwrite --icon=icns/acms-util_03.icns
+```
