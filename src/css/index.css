@@ -1,3 +1,13 @@
+body{
+	font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+table{
+	width: 100%;
+}
+.acms-admin-tabs .js-acms_tabs a:link, 
+.acms-admin-tabs .js-acms_admin_tabs a:link{
+	text-decoration: none;
+}
 .js-searchableForm{
 	display:none;
 	position:fixed;
